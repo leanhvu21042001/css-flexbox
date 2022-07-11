@@ -50,7 +50,12 @@
 .container {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 
   min-height: 100vh;
   border: 10px solid goldenrod;
+}
+
+.box {
+  width: 33.33%;
 }
