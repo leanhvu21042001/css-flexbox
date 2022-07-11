@@ -8,10 +8,10 @@
 /* Some default styles to make each box visible */
 .box {
   color: white;
-  font-size: 100px;
+  font-size: 2rem;
   text-align: center;
-  text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
-  padding: 10px;
+  text-shadow: 0.04rem 0.04rem 0 rgba(0, 0, 0, 0.1);
+  padding: 0.6rem;
 }
 
 /* Colours for each box */
