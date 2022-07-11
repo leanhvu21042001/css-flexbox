@@ -17,24 +17,26 @@
 /* We start writing out flexbox here. The above is just page setup */
 .container {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
 
   min-height: 100vh;
   border: 10px solid goldenrod;
 }
 
 .box {
-  width: fit-content;
+  /* flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto; */
+  width: 20rem;
 }
 
 /* Colours for each box */
 .box1 {
   background: #1abc9c;
-  flex-grow: 4;
+  flex: 0 1 1000px;
 }
 .box2 {
   background: #3498db;
-  flex-grow: 1;
 }
 .box3 {
   background: #9b59b6;
