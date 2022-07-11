@@ -30,11 +30,11 @@
 /* Colours for each box */
 .box1 {
   background: #1abc9c;
-  order: 2;
+  flex-grow: 4;
 }
 .box2 {
   background: #3498db;
-  order: 1;
+  flex-grow: 1;
 }
 .box3 {
   background: #9b59b6;
