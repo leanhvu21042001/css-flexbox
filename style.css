@@ -49,6 +49,8 @@
 /* We start writing out flexbox here. The above is just page setup */
 .container {
   display: flex;
+  flex-direction: row;
+
+  min-height: 100vh;
   border: 10px solid goldenrod;
-  height: 100vh;
 }
