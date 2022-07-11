@@ -14,12 +14,27 @@
   padding: 0.6rem;
 }
 
+/* We start writing out flexbox here. The above is just page setup */
+.container {
+  display: flex;
+  flex-flow: row nowrap;
+
+  min-height: 100vh;
+  border: 10px solid goldenrod;
+}
+
+.box {
+  width: fit-content;
+}
+
 /* Colours for each box */
 .box1 {
   background: #1abc9c;
+  order: 2;
 }
 .box2 {
   background: #3498db;
+  order: 1;
 }
 .box3 {
   background: #9b59b6;
@@ -44,21 +59,4 @@
 }
 .box10 {
   background: #16a085;
-}
-
-/* We start writing out flexbox here. The above is just page setup */
-.container {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  /* align-items: center; */
-  align-content: center;
-  gap: 4rem;
-
-  min-height: 100vh;
-  border: 10px solid goldenrod;
-}
-
-.box {
-  width: 12rem;
 }
