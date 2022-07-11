@@ -49,10 +49,11 @@
 /* We start writing out flexbox here. The above is just page setup */
 .container {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   justify-content: center;
   /* align-items: center; */
   align-content: center;
+  gap: 4rem;
 
   min-height: 100vh;
   border: 10px solid goldenrod;
