@@ -49,13 +49,12 @@
 /* We start writing out flexbox here. The above is just page setup */
 .container {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  justify-content: space-evenly;
 
   min-height: 100vh;
   border: 10px solid goldenrod;
 }
 
 .box {
-  width: 33.33%;
+  width: 12rem;
 }
